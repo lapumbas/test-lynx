@@ -1,0 +1,32 @@
+.ListItem {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  margin-right: 20px;
+  align-items: center;  
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(213, 213, 213);
+}
+
+.ListItem__text {
+  width: 90%;
+}
+
+.ListItem__button {
+  width: 100px;
+  min-height: 30px;
+  border-radius: 5px;
+  background-color: rgb(67, 110, 218);
+  flex-grow: 0;
+  margin-left: 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.ListItem__title {
+  color: rgb(131, 131, 131);
+  margin: 0;
+  padding: 0;
+}
